@@ -19,5 +19,5 @@ exports.check = function(req, res, next)  {
 // GET /author
 exports.author = function(req, res, next)  {
 
-	res.render('/author',);
+	res.render('/author');
 };
