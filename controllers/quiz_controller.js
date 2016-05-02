@@ -16,3 +16,8 @@ exports.check = function(req, res, next)  {
 								  answer: answer });
 };
 
+// GET /author
+exports.author = function(req, res, next)  {
+
+	res.render('/author',);
+};
